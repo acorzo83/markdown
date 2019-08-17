@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/08/2019, 04:48:46 PM
+    Author     : acorzo
+*/
+
+.html, body { height: 100%; margin: 0px; padding: 0px; }
+.MDBody { float: left; width: 100%; height: 100%; position: absolute; border: solid 1px #333333;}
+.MDBBody-Documents {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #E5E5E5;
+    /* border: solid 1px #FF0000; */
+}
+
+.MDBody-Editor {
+    float: left;
+    width: 40%;
+    height: 100%;
+    border: solid 1px #999999;
+}
+
+.MDBBody-Preview {
+    float: left;
+    width: 39.5%;
+    height: 100%;
+    background: #FAFAFA;
+    /* border: solid 1px #FF0000; */
+}
+
+.oTextAreEditorControls {
+	float:left;
+	width: 100%;
+	height: 3%;
+	background-color: #E5E5E5;
+	/* border: solid 1px #FF0000; */
+}
+
+.oTextAreaEditor {
+    width: 100%;
+    height: 97%;
+}
+
+.MDBBody-Documents-Title {
+	float: left;
+	width: 100%;
+	height: 5%;
+	background-color: #505050;
+	/* border: solid 1px #FF0000; */
+} 
+
+.MDBBody-Documents-Title-Position {
+	width: 100%;
+	height: 34px;
+	margin-top: 7%;
+	text-align: center;
+	/* border: solid 1px #FF0000; */
+}
+
+.oFontTitleApp {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.MDBBody-Documents-Files {
+	float:left;
+	width: 100%;
+	height: 100%;
+	/* border: solid 1px #FF0000; */
+}
+
+.MDBBody-Documents-Files-Content {
+	float:left;
+	width: 100%;
+	height: 80px;
+	/* border: solid 1px #FF0000; */
+}
+
+.MDBBody-Documents-Files-Content-Picture {
+	float:left;
+	width: 22%;
+	height: 100%;
+	/* border: solid 1px #FF0000; */
+}
+
+.MDBBody-Documents-Files-Content-Title {
+	float: left;
+	width: 72.5%;
+	height: 40%;
+	margin-top: 8%;
+	/* border: solid 1px #FF0000; */
+}
+
+.oFontTitleFile {
+	color: #666666;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.oTextAreEditorControls-Buttons {
+	float: left;
+	width: auto;
+	height: 80%%;
+	margin-top: 1.5%;
+	margin-left: 3px;
+	/* border: solid 1px #FF0000; */
+}
