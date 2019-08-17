@@ -375,7 +375,7 @@ $(function(){
 		        						    		text: "OK",
 		        						    		btnClass: "btn-orange",
 		        						    		action: function(){
-		        						    			// Por el momento no se realiza ninguna accion
+		        						    			// No es necesario relizar ninguna accion
 		        						    		}
 		        						    	}
 		        						    }
@@ -396,15 +396,7 @@ $(function(){
 						    		text: "OK",
 						    		btnClass: "btn-orange",
 						    		action: function(){
-						    			// Ocultamos - Botones
-						    			$("#oBtnGuardar").hide();
-						    			$("#oBtnCancelar").hide();
-						    			
-						    			// Mostramos - Botones
-						    			$("#oBtnNuevo").show();
-						    			
-						    			// Desactivams - Text Area
-						    			$("#oTextEditor").attr("disabled",true).prop("disabled",true);
+						    			// No es necesario realizar ninguna accion
 						    		}
 						    	}
 						    }
