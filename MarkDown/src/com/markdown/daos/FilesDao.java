@@ -327,6 +327,33 @@ public class FilesDao {
 							oResult.add(oData);
 						}
 					}
+				}else {
+					// Creamos - Documento
+					if (oFileSystemManager.setCreateFile("Documents/" + oParamNombreDoc)) {
+						// Vaciamos - Contenido - Documento
+						if (oFileSystemManager.setWriteFile("Documents/" + oParamNombreDoc, oContentFile, "UTF-8")) {
+							// Seteamos - Valores - Respuesta
+							oResult = new Vector();
+							oResult.add(true);
+							oResult.add(false);
+							oResult.add("El documento fue almacenado con exito!");
+							oResult.add(oData);
+						}else {
+							// Seteamos - Valores - Respuesta
+							oResult = new Vector();
+							oResult.add(false);
+							oResult.add(true);
+							oResult.add("Ocurrio un error al momento de escribir el contenido del archivo en el servidor");
+							oResult.add(oData);
+						}
+					}else {
+						// Seteamos - Valores - Respuesta
+						oResult = new Vector();
+						oResult.add(false);
+						oResult.add(true);
+						oResult.add("Ocurrio un error al momento de crear el archivo del lado del servidor");
+						oResult.add(oData);
+					}
 				}
 			}else {
 				// Creamos - Directorio

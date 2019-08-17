@@ -90,6 +90,9 @@ $(function(){
 				    				// Desactivams - Text Area
 					        		$("#oTextEditor").attr("disabled",true).prop("disabled",true);
 					        		
+					        		// Limpiamos - Div
+			    					$("#MDBBody-Documents-Files").html("");
+					        		
 					        		// Obtenemos - Documentos - Existentes - Lado del Servidor
 					    			oDocuments = oGetDataDocumentsServer();
 					    			
@@ -258,7 +261,7 @@ $(function(){
 		// Mensaje - Usuario
 		$.confirm({
 		    title: "Guardar Documento",
-		    content: "Esta a punto de guardar un nuevo documento, ¿Desea contonuar?",
+		    content: "Esta a punto de guardar un nuevo documento, ¿Desea continuar?",
 		    type: "green",
 		    buttons: {
 		        confirm: {
